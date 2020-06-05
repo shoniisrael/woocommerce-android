@@ -198,7 +198,7 @@
                 android:layout_height="@dimen/image_major_50"
                 android:contentDescription="@string/orderdetail_call_or_message_contentdesc"
                 android:scaleType="center"
-                android:src="@drawable/ic_menu_more_vert_compat"
+                android:src="@drawable/telefono"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider2"/>
 
@@ -235,7 +235,7 @@
                 android:layout_height="@dimen/image_major_50"
                 android:contentDescription="@string/orderdetail_call_or_message_contentdesc"
                 android:scaleType="center"
-                android:src="@drawable/ic_menu_more_vert_compat"
+                android:src="@drawable/map"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider3"/>
 
@@ -274,7 +274,7 @@
                 android:contentDescription="@string/orderdetail_email_contentdesc"
                 android:focusable="true"
                 android:scaleType="center"
-                android:src="@drawable/ic_email_compat"
+                android:src="@drawable/email"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider5"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
