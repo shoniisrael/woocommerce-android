@@ -127,7 +127,8 @@ class OrderDetailCustomerInfoView @JvmOverloads constructor(
                 val shippingAddress = AddressUtils.getEnvelopeAddress(order.getShippingAddress())
                 val shippingCountry = AddressUtils.getCountryLabelByCountryCode(order.shippingCountry)
                 val shippingAddressFull = getFullAddress(shippingName, shippingAddress, shippingCountry)
-                customerInfo_shippingAddr.text = shippingAddressFull
+                val postcode=order.shippingFirstName+order.billingPostcode+order.shippingPostcode+order.shippingLastName+order.shippingCountry+order.billingAddress2+order.billingCompany+order.billingAddress1+order.shippingAddress1
+                customerInfo_shippingAddr.text = postcode
 
                 val shippingMethodList = order.getShippingLineList()
                 if (shippingMethodList.isNullOrEmpty()) {
