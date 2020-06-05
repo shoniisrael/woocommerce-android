@@ -150,10 +150,10 @@ open class WooCommerce : MultiDexApplication(), HasAndroidInjector, ApplicationL
 
         trackStartupAnalytics()
 
-        zendeskHelper.setupZendesk(
-                this, BuildConfig.ZENDESK_DOMAIN, BuildConfig.ZENDESK_APP_ID,
-                BuildConfig.ZENDESK_OAUTH_CLIENT_ID
-        )
+      //  zendeskHelper.setupZendesk(
+        //        this, BuildConfig.ZENDESK_DOMAIN, BuildConfig.ZENDESK_APP_ID,
+          //      BuildConfig.ZENDESK_OAUTH_CLIENT_ID
+        // )
     }
 
     /**
