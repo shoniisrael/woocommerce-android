@@ -121,6 +121,8 @@
         </LinearLayout>
 
         <!-- Billing Section -->
+
+        <!-- VIEW MORE Button -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/customerInfo_morePanel"
             android:layout_width="match_parent"
@@ -136,7 +138,7 @@
                 android:layout_marginEnd="@dimen/minor_00"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
             <!-- Label: Billing Details -->
             <com.google.android.material.textview.MaterialTextView
@@ -145,11 +147,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/orderdetail_billing_details"
-                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider"
                 app:layout_constrainedWidth="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"/>
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider" />
 
             <!-- Billing Address -->
             <com.google.android.material.textview.MaterialTextView
@@ -157,8 +159,9 @@
                 style="@style/Woo.Card.Body"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:textIsSelectable="true"
                 android:layout_marginTop="@dimen/minor_50"
+                android:textIsSelectable="true"
+                android:visibility="gone"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/customerInfo_billingLabel"
@@ -168,12 +171,12 @@
             <View
                 android:id="@+id/customerInfo_divider2"
                 style="@style/Woo.Divider"
-                android:layout_marginTop="@dimen/major_100"
                 android:layout_marginStart="@dimen/major_100"
+                android:layout_marginTop="@dimen/major_100"
                 android:layout_marginEnd="@dimen/minor_00"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/customerInfo_billingAddr"/>
+                app:layout_constraintTop_toBottomOf="@+id/customerInfo_billingAddr" />
 
             <!-- Billing Phone -->
             <com.google.android.material.textview.MaterialTextView
@@ -188,7 +191,7 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider2"
-                tools:text="123-456-7890"/>
+                tools:text="123-456-7890" />
 
             <!-- Call or message button -->
             <ImageButton
@@ -200,7 +203,7 @@
                 android:scaleType="center"
                 android:src="@drawable/telefono"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider2"/>
+                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider2" />
 
             <!-- Divider -->
             <View
@@ -210,7 +213,7 @@
                 android:layout_marginEnd="@dimen/minor_00"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/customerInfo_callOrMessageBtn"/>
+                app:layout_constraintTop_toBottomOf="@+id/customerInfo_callOrMessageBtn" />
 
             <!-- Billing Phone -->
             <com.google.android.material.textview.MaterialTextView
@@ -225,7 +228,7 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider3"
-                tools:text="123-456-7890"/>
+                tools:text="123-456-7890" />
 
             <!-- Call or message button -->
             <ImageButton
@@ -237,7 +240,7 @@
                 android:scaleType="center"
                 android:src="@drawable/map"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider3"/>
+                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider3" />
 
             <!-- Divider -->
             <View
@@ -247,7 +250,7 @@
                 android:layout_marginEnd="@dimen/minor_00"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/customerInfo_addressBtn"/>
+                app:layout_constraintTop_toBottomOf="@+id/customerInfo_addressBtn" />
 
             <!-- Email Address -->
             <com.google.android.material.textview.MaterialTextView
@@ -262,7 +265,7 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider5"
-                tools:text="email@example.com"/>
+                tools:text="email@example.com" />
 
             <!-- Email Button -->
             <ImageButton
@@ -276,10 +279,9 @@
                 android:scaleType="center"
                 android:src="@drawable/email"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider5"/>
+                app:layout_constraintTop_toBottomOf="@+id/customerInfo_divider5" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <!-- VIEW MORE Button -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/customerInfo_viewMore"
             android:layout_width="match_parent"
