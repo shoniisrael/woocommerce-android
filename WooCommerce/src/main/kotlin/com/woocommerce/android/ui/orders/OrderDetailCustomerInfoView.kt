@@ -2,19 +2,22 @@ package com.woocommerce.android.ui.orders
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.util.AttributeSet
 import android.view.View
 import android.widget.PopupMenu
+import androidx.core.content.ContextCompat.startActivity
 import com.google.android.material.card.MaterialCardView
 import com.woocommerce.android.R
 import com.woocommerce.android.analytics.AnalyticsTracker
 import com.woocommerce.android.analytics.AnalyticsTracker.Stat
-import com.woocommerce.android.util.AddressUtils
-import com.woocommerce.android.util.PhoneUtils
 import com.woocommerce.android.extensions.collapse
 import com.woocommerce.android.extensions.expand
 import com.woocommerce.android.extensions.hide
 import com.woocommerce.android.extensions.show
+import com.woocommerce.android.util.AddressUtils
+import com.woocommerce.android.util.PhoneUtils
 import com.woocommerce.android.widgets.AppRatingDialog
 import kotlinx.android.synthetic.main.order_detail_customer_info.view.*
 import org.wordpress.android.fluxc.model.WCOrderModel
@@ -77,6 +80,25 @@ class OrderDetailCustomerInfoView @JvmOverloads constructor(
                 customerInfo_phone.visibility = View.GONE
                 customerInfo_divider3.visibility = View.GONE
                 customerInfo_callOrMessageBtn.visibility = View.GONE
+            }
+            // display Map address only if available, otherwise, hide the view
+            if (order.billingPostcode.isNotEmpty()) {
+                customerInfo_address.text = order.billingPostcode
+                customerInfo_address.visibility = View.VISIBLE
+                customerInfo_divider5.visibility - View.VISIBLE
+                customerInfo_addressBtn.visibility = View.VISIBLE
+                customerInfo_addressBtn.setOnClickListener {
+//                  call Google Maps App with order address
+                    val intent = Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("http://maps.google.com/maps?daddr= ${order.billingPostcode}")
+                    )
+                    intent.setPackage("com.google.android.apps.maps")
+                    context.startActivity(intent)
+                }
+            } else {
+                customerInfo_emailAddr.visibility = View.GONE
+                customerInfo_emailBtn.visibility = View.GONE
             }
 
             // display email address info only if available, otherwise, hide the view
