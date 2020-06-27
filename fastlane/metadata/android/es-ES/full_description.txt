@@ -1,4 +1,4 @@
-Dirige tu tienda de WooCommerce desde cualquier lugar. 
+Dirige tu tienda desde cualquier lugar. 
 
 Gestiona pedidos, controla las ventas y supervisa la actividad de la tienda con alertas de pedidos en tiempo real.
 
