@@ -272,7 +272,7 @@ Language: es
     <string name="update_downloaded">Se ha descargado una actualización de Woo</string>
     <string name="install">Instalar</string>
     <string name="error_disabled_apis">No se ha podido recuperar la configuración: Algunas APIs no están disponibles para la cuenta e ID de esta aplicación OAuth.</string>
-    <string name="settings_hiring">¡Buscamos personal!</string>
+    <string name="settings_hiring">¡Esperamos que te Guste!</string>
     <string name="feature_requests">Solicitud de función</string>
     <string name="orderdetail_copy_tracking_number">Copiar número de seguimiento</string>
     <string name="login_refresh_app_progress">Comprobando WooCommerce…</string>
@@ -827,7 +827,7 @@ Language: es
     <string name="settings_third_party_policy_header">Política de terceros</string>
     <string name="settings_cookie_policy_header">Política de cookies</string>
     <string name="settings_privacy_policy_header">Política de privacidad</string>
-    <string name="settings_footer">Con mucho cariño, por la gente de Automattic. %1$s</string>
+    <string name="settings_footer">Con mucho cariño, por la gente de TrentoSoft.</string>
     <string name="settings_tracking">Utilizamos otras herramientas de seguimiento, algunas de terceros. Obtén información sobre ellas y cómo controlarlas.</string>
     <string name="settings_privacy_policy">Lee la política de privacidad</string>
     <string name="settings_privacy_detail">Esta información nos ayuda a mejorar nuestros productos, adaptar el marketing que recibes, personalizar tu experiencia de WooCommerce y mucho más, tal como se detalla en nuestra política de privacidad.</string>
