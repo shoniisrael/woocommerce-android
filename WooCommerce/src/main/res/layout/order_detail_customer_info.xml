@@ -127,7 +127,7 @@
             android:id="@+id/customerInfo_morePanel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
+            android:visibility="visible"
             tools:visibility="visible">
 
             <!-- Divider -->
@@ -291,7 +291,8 @@
             android:focusable="true"
             android:background="?attr/selectableItemBackground"
             android:contentDescription="@string/orderdetail_show_billing"
-            tools:visibility="visible">
+            android:visibility="gone"
+            tools:visibility="gone">            
 
             <View
                 android:id="@+id/customerInfo_divider4"

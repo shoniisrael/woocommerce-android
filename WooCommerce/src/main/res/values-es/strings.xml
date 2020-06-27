@@ -842,7 +842,7 @@ Language: es
     <string name="orderstatus_completed">Completado</string>
     <string name="orderstatus_failed">Se ha producido un error</string>
     <string name="orderstatus_pending">Pago pendiente</string>
-    <string name="orderstatus_processing">Se está procesando</string>
+    <string name="orderstatus_processing">En proceso</string>
     <string name="add_order_note_error">No se ha podido añadir la nota</string>
     <string name="add_order_note_added">Se ha añadido la nota del pedido</string>
     <string name="add_order_note_menu_item">Añadir</string>
@@ -961,7 +961,7 @@ Language: es
     <string name="notification_channel_general_title">General</string>
     <string name="app_name">MiBotellaMovil</string>
     <string-array name="order_list_tabs">
-        <item>Se está procesando</item>
+        <item>En proceso</item>
         <item>Todos los pedidos</item>
     </string-array>
 </resources>
