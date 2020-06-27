@@ -967,7 +967,7 @@ Language: zh_CN
     <string name="logging_in">正在登录</string>
     <string name="all">全部</string>
     <string name="notification_channel_general_title">常规</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">MiBotellaMovil</string>
     <string-array name="order_list_tabs">
         <item>正在处理</item>
         <item>所有订单</item>

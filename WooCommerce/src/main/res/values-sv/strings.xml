@@ -967,7 +967,7 @@ Language: sv_SE
     <string name="logging_in">Loggar in</string>
     <string name="all">Alla</string>
     <string name="notification_channel_general_title">Allmänt</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">MiBotellaMovil</string>
     <string-array name="order_list_tabs">
         <item>Behandlas</item>
         <item>Alla ordrar</item>

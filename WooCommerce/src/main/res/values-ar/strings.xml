@@ -967,7 +967,7 @@ Language: ar
     <string name="logging_in">تسجيل الدخول</string>
     <string name="all">الكل</string>
     <string name="notification_channel_general_title">عام</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">MiBotellaMovil</string>
     <string-array name="order_list_tabs">
         <item>قيد المعالجة</item>
         <item>جميع الطلبات</item>

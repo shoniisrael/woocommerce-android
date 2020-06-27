@@ -957,7 +957,7 @@ Language: tr
     <string name="logging_in">Giriş yapılıyor</string>
     <string name="all">Tümü</string>
     <string name="notification_channel_general_title">Genel</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">MiBotellaMovil</string>
     <string-array name="order_list_tabs">
         <item>İşlemde</item>
         <item>Tüm Siparişler</item>

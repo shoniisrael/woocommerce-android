@@ -959,7 +959,7 @@ Language: de
     <string name="logging_in">Anmeldung läuft</string>
     <string name="all">Alle</string>
     <string name="notification_channel_general_title">Allgemein</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">MiBotellaMovil</string>
     <string-array name="order_list_tabs">
         <item>In Bearbeitung</item>
         <item>Alle Bestellungen</item>

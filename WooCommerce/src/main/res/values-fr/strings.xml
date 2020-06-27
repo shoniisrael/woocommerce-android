@@ -959,7 +959,7 @@ Language: fr
     <string name="logging_in">Connexion</string>
     <string name="all">Toutes</string>
     <string name="notification_channel_general_title">Général</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">MiBotellaMovil</string>
     <string-array name="order_list_tabs">
         <item>En cours</item>
         <item>Toutes les commandes</item>
