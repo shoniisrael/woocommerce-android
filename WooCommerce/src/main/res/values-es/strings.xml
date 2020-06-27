@@ -959,7 +959,7 @@ Language: es
     <string name="logging_in">Accediendo</string>
     <string name="all">Todo</string>
     <string name="notification_channel_general_title">General</string>
-    <string name="app_name">WooCommerce</string>
+    <string name="app_name">MyBotellaMovil</string>
     <string-array name="order_list_tabs">
         <item>Se está procesando</item>
         <item>Todos los pedidos</item>
